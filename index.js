@@ -41,8 +41,11 @@ const logTaskState = function(taskIndex) {
 // DRIVER CODE BELOW
 const task1 = newTask("Clean Cat Litter", "Take all the 💩 out of the litter box");
 const task2 = newTask("Do Laundry", "😨");
-const tasks = [task1, task2];
 
 task1.logState(); // Clean Cat Litter has not been completed
 task1.markCompleted();
 task1.logState(); // Clean Cat Litter has been completed
+
+completeTask(1); // Mark the task at index 1 as complete
+
+task2.logState(); // Do Laundry has been completed
