@@ -52,3 +52,6 @@ task2.logState(); // Do Laundry has been completed
 
 logTaskState(0); // Clean Cat Litter has been completed
 logTaskState(1); // Do Laundry has been completed
+
+task1.title;
+task1.markCompleted();
