@@ -49,3 +49,6 @@ task1.logState(); // Clean Cat Litter has been completed
 completeTask(1); // Mark the task at index 1 as complete
 
 task2.logState(); // Do Laundry has been completed
+
+logTaskState(0); // Clean Cat Litter has been completed
+logTaskState(1); // Do Laundry has been completed
